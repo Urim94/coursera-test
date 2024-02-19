@@ -1,6 +1,6 @@
 body {
     margin: 10px;
-    font-family: Arial, sans-serif; /* Optional: Setting a specific font-family */
+    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -9,11 +9,11 @@ body {
 
 .section {
     float: left;
-    width: calc(33.3333% - 20px); /* 20px accounts for margin between sections */
-    background-color: #f2f2f2; /* Example background color */
+    width: calc(33.3333% - 20px);
+    background-color: #f2f2f2;
     border: 1px solid black;
     box-sizing: border-box;
-    margin: 10px; /* Spacing between sections */
+    margin: 10px;
     position: relative;
 }
 
@@ -24,12 +24,12 @@ body {
     padding: 5px;
     margin: 0;
     border: 1px solid black;
-    font-size: 125%; /* Optional: 25% larger font size than dummy text */
+    font-size: 125%;
 }
 .dummy-text {
     padding: 10px;
     margin: 10px;
-    font-size: 16px; /* Example font size */
+    font-size: 16px;
 }@media(max-width: 767px) {
     .section {
         width: calc(100% - 20px);
@@ -39,7 +39,7 @@ body {
 
 @media (min-width: 767px) and (max-width: 991px) {
     .section {
-        width: calc(50% - 20px); /* 20px accounts for margin between sections */
+        width: calc(50% - 20px);
         float: left;
     }
     .section:nth-child(3) {
